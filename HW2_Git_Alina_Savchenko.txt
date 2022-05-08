@@ -7,17 +7,28 @@
 - Charles
 - Mobile testing
 
-git branch Postman, Jmeter, CheckLists, Bug Reports, SQL, Charles, Mobile testing
+git branch Postman 
+git branch Jmeter 
+git branch CheckLists 
+git branch Bug Reports 
+git branch SQL 
+git branch Charles 
+git branch Mobile testing
 git checkout main
 
 2. Запушить все ветки на внешний репозиторий
 
-git push -u origin Postman, Jmeter, CheckLists, Bug_Reports, SQL, Charles, Mobile_testing
-git push orogin --all???
+git push -u origin Postman 
+git push -u origin Jmeter 
+git push -u origin CheckLists 
+git push -u origin Bug_Reports 
+git push -u origin SQL 
+git push -u origin Charles 
+git push -u origin Mobile_testing
+
 
 3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
 
-    git branch
     git checkout Bug_Reports
     vim Bug_Reports.txt
         i
@@ -35,7 +46,6 @@ git push orogin --all???
 
 4. Запушить структуру багрепорта на внешний репозиторий
 
-    git status
     git add .
     git commit -am, "add Bug_Reports.txt"
     git push
@@ -48,15 +58,10 @@ git push orogin --all???
 
 6. Запушить main на внешний репозиторий.
 
-    git branch  
-    git status
-    git add .
-    git commit -am, "add merged branch Bug_Reports" 
     git push
 
 7. В ветке CheckLists набросать структуру чек листа.
 
-    git branch 
     git checkout CheckLists
     vim CheckLists.txt
         i
@@ -72,7 +77,6 @@ git push orogin --all???
 
 8. Запушить структуру на внешний репозиторий
 
-    git status
     git add .
     git commit -m "create CheckLists.txt"
     git push
